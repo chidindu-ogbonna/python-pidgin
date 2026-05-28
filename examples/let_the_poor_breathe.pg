@@ -1,0 +1,16 @@
+# "Let the poor breathe, don't suffocate them"
+
+gist check_economy(poor_people_breathing):
+    check poor_people_breathing == real_talk:
+        yarn("Let the poor breathe! Don't suffocate them.")
+    otherwise:
+        yarn("Ah, everywhere choke oh!")
+
+na economy_hard = real_talk
+na subsidy_gone = real_talk
+
+check economy_hard and subsidy_gone:
+    yarn("Subsidy is gone!")
+    check_economy(lie)
+otherwise:
+    check_economy(real_talk)

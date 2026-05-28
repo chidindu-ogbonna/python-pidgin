@@ -1,0 +1,11 @@
+# "Emi Lokan" - It is my turn
+
+na candidates = ["Atiku", "Obi", "Tinubu", "Kwankwaso"]
+
+per_person candidate inside candidates:
+    check candidate == "Tinubu":
+        yarn("Emi lokan! It is my turn!")
+    otherwise:
+        yarn(candidate, "no be your turn yet.")
+
+yarn("Election don finish, town hall different from balablu!")

@@ -1,0 +1,22 @@
+# "A town hall, different from balablu, blue blu, bulaba"
+
+gist speech_generator(is_town_hall):
+    check is_town_hall == real_talk:
+        yarn("A town hall, different from balablu, blue blu, bulaba.")
+    otherwise:
+        yarn("We are here to grab it, snatch it and run with it!")
+
+na event_type = "town_hall"
+
+check event_type == "town_hall":
+    speech_generator(real_talk)
+otherwise:
+    speech_generator(lie)
+
+# Count down to grabbing it
+na grab_count = 3
+as_far_say grab_count big pass 0:
+    yarn("Ready to grab in:", grab_count)
+    grab_count = grab_count - 1
+
+yarn("Snatch it and run with it!")
