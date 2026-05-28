@@ -4,9 +4,9 @@ on:
   release:
     types: [published]
   # Alternatively, you can uncomment the lines below to trigger on pushing tags:
-  # push:
-  #   tags:
-  #     - 'v*'
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   build-and-publish:
