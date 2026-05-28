@@ -24,6 +24,15 @@ def transpile(source_code: str) -> str:
         'inside': 'in',
         'real_talk': 'True',
         'lie': 'False',
+        'try_am': 'try',
+        'e_cast': 'except',
+        'Problem': 'Exception',
+        'abi': 'or',
+        'bring_come': 'import',
+        'comot': 'break',
+        'move': 'continue',
+        'nothing': 'None',
+        'level': 'class',
     }
     
     replacements = []

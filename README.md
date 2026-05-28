@@ -61,6 +61,15 @@ Python Pidgin preserves all native Python behaviors. Here are the core keyword m
 | `inside` | `in` | Membership checking operator / structural loop iterator. |
 | `real_talk` | `True` | Boolean True. |
 | `lie` | `False` | Boolean False. |
+| `try_am` | `try` | Opens a try block for exception handling. |
+| `e_cast` | `except` | Catches exceptions if the try block fails. |
+| `Problem` | `Exception` | Base exception class. |
+| `abi` | `or` | Logical OR operator. |
+| `bring_come` | `import` | Import module statement. |
+| `comot` | `break` | Breaks out of the current loop. |
+| `move` | `continue` | Skips to the next iteration of the loop. |
+| `nothing` | `None` | Null value. |
+| `level` | `class` | Class definition. |
 
 ## Example Script
 

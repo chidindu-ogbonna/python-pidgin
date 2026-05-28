@@ -5,7 +5,7 @@
   "patterns": [
     {
       "name": "keyword.control.python-pidgin",
-      "match": "\\b(check|unless|otherwise|as_far_say|per_person|inside|give_am)\\b"
+      "match": "\\b(check|unless|otherwise|as_far_say|per_person|inside|give_am|try_am|e_cast|bring_come|comot|move|level)\\b"
     },
     {
       "name": "keyword.other.python-pidgin",
@@ -13,7 +13,7 @@
     },
     {
       "name": "keyword.operator.python-pidgin",
-      "match": "\\b(small pass|big pass)\\b"
+      "match": "\\b(small pass|big pass|abi)\\b"
     },
     {
       "name": "support.function.builtin.python-pidgin",
@@ -25,7 +25,11 @@
     },
     {
       "name": "constant.language.python-pidgin",
-      "match": "\\b(real_talk|lie)\\b"
+      "match": "\\b(real_talk|lie|nothing)\\b"
+    },
+    {
+      "name": "support.class.exception.python-pidgin",
+      "match": "\\b(Problem)\\b"
     },
     {
       "include": "source.python"
