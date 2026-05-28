@@ -1,7 +1,7 @@
 {
   "name": "python-pidgin",
-  "displayName": "Python Pidgin",
-  "description": "Syntax highlighting for the Python Pidgin programming language",
+  "displayName": "Pidgin Programming Language",
+  "description": "Syntax highlighting for the Pidgin Programming Language, a culturally expressive superset of Python.",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.80.0"

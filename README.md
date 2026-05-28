@@ -1,12 +1,31 @@
-# Python Pidgin
+# Pidgin Programming Language
 
-Python Pidgin is an open-source, culturally expressive programming language built as a strict superset of Python. It replaces traditional Python keywords with intuitive, natural Nigerian Pidgin vocabulary (`yarn`, `na`, `check`) while maintaining 100% compatibility with the underlying Python runtime environment.
+**The Pidgin Programming Language** is a culturally expressive, strict superset of Python that brings the vibrant vocabulary of Nigerian Pidgin to modern software development. It empowers developers to write powerful, 100% Python-compatible code using intuitive, natural expressions (like `yarn`, `na`, `check`), bridging the gap between culture and technology so you can code exactly the way you speak.
 
 By prioritizing Python’s native indentation, code styling, and comment structures, Python Pidgin avoids the overhead of foreign syntactic structures, ensuring that learning and writing Python Pidgin feels completely seamless to anyone familiar with Python ecosystems.
 
 ## Installation
 
-You can install Python Pidgin locally directly from the source directory using pip:
+### Prerequisites
+
+Since the Pidgin Programming Language is built as a strict superset of Python, you must have Python installed on your system first.
+
+- You can download and install Python from the official website: [python.org/downloads](https://www.python.org/downloads/)
+- Alternatively, install it via your system's package manager (e.g., `brew install python` on macOS or `sudo apt install python3` on Ubuntu).
+
+Verify your installation by running `python --version` or `python3 --version` in your terminal.
+
+### Install from PyPI
+
+Once Python is installed, you can easily install the language directly from PyPI:
+
+```bash
+pip install python-pidgin
+```
+
+### Install from Source
+
+If you want to run from the source directory, you can install it locally using pip:
 
 ```bash
 pip install -e .
