@@ -1,0 +1,29 @@
+# Setup basic parameters
+na monthly_pay = 75000
+na minimum_wage = 70000
+
+# Logic validation block
+check monthly_pay small pass minimum_wage:
+    yarn("God dey, things go better!")
+otherwise:
+    yarn("Oga, do giveaway!")
+
+# Let's test a bit more syntax
+gist calculate_salary(base_pay, bonus):
+    as_far_say base_pay small pass 100000:
+        base_pay = base_pay + 5000
+        check base_pay big pass 90000:
+            yarn("Salary almost reach 100k!")
+
+    give_am base_pay + bonus
+
+na final_pay = calculate_salary(monthly_pay, 10000)
+yarn("Final pay:", final_pay)
+
+check real_talk:
+    yarn("Na true!")
+unless lie:
+    yarn("Na lie!")
+
+per_person i inside [1, 2, 3]:
+    yarn("Counting:", i)

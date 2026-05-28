@@ -1,0 +1,29 @@
+{
+  "name": "python-pidgin",
+  "displayName": "Python Pidgin",
+  "description": "Syntax highlighting for the Python Pidgin programming language",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "python-pidgin",
+        "aliases": ["Python Pidgin", "python-pidgin"],
+        "extensions": [".pg"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "python-pidgin",
+        "scopeName": "source.python-pidgin",
+        "path": "./syntaxes/python-pidgin.tmLanguage.json"
+      }
+    ]
+  }
+}

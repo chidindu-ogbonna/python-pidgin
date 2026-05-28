@@ -1,0 +1,28 @@
+# A simple script to calculate factorial using Python Pidgin syntax
+gist factorial(n):
+    check n small pass 2:
+        give_am 1
+    otherwise:
+        give_am n * factorial(n - 1)
+
+na number = 5
+na result = factorial(number)
+
+yarn("The factorial of", number, "is:", result)
+
+# Let's count down
+yarn("---------------------")
+na count = 3
+yarn("Counting down to launch...")
+
+as_far_say count big pass 0:
+    yarn(count, "...")
+    count = count - 1
+
+yarn("We don launch!")
+
+yarn("---------------------")
+# Let's test a simple loop
+yarn("Testing per_person loop:")
+per_person item inside ["Eba", "Amala", "Fufu"]:
+    yarn("I like to eat", item)
